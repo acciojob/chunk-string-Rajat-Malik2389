@@ -1,6 +1,4 @@
 function stringChop(str, size) {
-  // your code here
-	function stringChop(str, size) {
     // your code here
  
             if( str == null || str.length == 0)
@@ -40,10 +38,3 @@ alert(stringChop(str, size));
 
 
 
-
-}
-
-// Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
